@@ -1,0 +1,13 @@
+<meta name="robots" content="noindex, nofollow">
+
+<script>
+    console.log('preview head: query paragraph', document.querySelector('#para'));
+    console.log('preview head: query script', document.querySelector('#script'));
+</script>
+
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('DOMContentLoaded: query paragraph', document.querySelector('#para'));
+        console.log('DOMContentLoaded:query script', document.querySelector('#script'));
+    });
+</script>

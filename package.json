@@ -1,0 +1,22 @@
+{
+    "name": "storybook-test",
+    "description": "Test rendering of script HTML tags in Storybook",
+    "author": "",
+    "version": "0.0.1",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/basher/sb-test"
+    },
+    "scripts": {
+        "reset": "rm -rf node_modules/ && npm install",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build",
+        "publish-storybook": "npm install && npm run build-storybook"
+    },
+    "devDependencies": {
+        "@storybook/html": "^8.2.3",
+        "@storybook/html-vite": "^8.2.3",
+        "storybook": "^8.2.3"
+    }
+}
