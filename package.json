@@ -1,6 +1,6 @@
 {
-    "name": "sb-test",
-    "description": "Test rendering of script HTML tags in Storybook",
+    "name": "storybook-test",
+    "description": "Test rendering of HTML script tags in Storybook stories",
     "author": "",
     "version": "0.0.1",
     "license": "ISC",
