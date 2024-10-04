@@ -1,5 +1,5 @@
 {
-    "name": "storybook-test",
+    "name": "sb-test",
     "description": "Test rendering of script HTML tags in Storybook",
     "author": "",
     "version": "0.0.1",
